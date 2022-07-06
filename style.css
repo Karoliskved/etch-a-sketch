@@ -1,0 +1,16 @@
+.grid{
+    display: flex;
+    
+    
+    
+}
+.griditem{
+    width: 10px;
+    height: 10px;
+    border: black solid 1px;
+    margin: 0;
+}
+.gridRow{
+    display: flex;
+    flex-direction: column;
+}
