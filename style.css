@@ -1,31 +1,59 @@
-.grid{
-    display: flex;
-    border: black solid 3px;
-    max-width: 700px;
-    max-height: 700px;
-    width: 700px;
-    height: 700px;
-    
-
+.grid {
+  display: flex;
+  border: black solid 3px;
+  max-width: 700px;
+  max-height: 700px;
+  width: 700px;
+  height: 700px;
 }
-.griditem{
-    display: flex;
-    width: 1;
-    border: black solid 1px;
-
-
-   
-    flex: 1
-   
+.griditem {
+  display: flex;
+  width: 1;
+  border: black solid 1px;
+  flex: 1;
 }
-.gridRow{
-    display: flex;
-    flex-direction: column;
- 
-    flex: 1;
-    
+.gridRow {
+  display: flex;
+  flex-direction: column;
 
+  flex: 1;
 }
-/*.griditem:hover{
-    background-color: black;
-}*/
+.colorContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.colorSelect {
+  width: 80px;
+  height: 80px;
+  border: solid 1px black;
+}
+#black {
+  background-color: black;
+}
+#red {
+  background-color: red;
+}
+#green {
+  background-color: green;
+}
+#white {
+  background-color: white;
+}
+#blue {
+  background-color: blue;
+}
+#yellow {
+  background-color: yellow;
+}
+#purple {
+  background-color: purple;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url('wallpaperflare.com_wallpaper.jpg');
+}
+.griditem {
+  background-color: white;
+  background-size: cover;
+}
