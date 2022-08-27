@@ -27,6 +27,9 @@
   height: 80px;
   border: solid 1px black;
 }
+.colorSelect:hover {
+  border: solid 2px rgb(112, 218, 42);
+}
 #black {
   background-color: black;
 }
