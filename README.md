@@ -1,6 +1,6 @@
 # etch-a-sketch
 
-basic etch-a-sketch made using vanilla html, css, javascript.
+basic etch-a-sketch made using html, css, javascript.
 
 Click resize to set gride size or reset the grid.
 
